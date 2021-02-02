@@ -1,0 +1,5 @@
+node('master')
+{
+	stage('Continuous Download')
+	{
+		git '
